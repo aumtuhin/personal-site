@@ -69,6 +69,10 @@ body {
   background-color: #fff;
 }
 
+.visitor{
+  float: right;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -6075,6 +6079,7 @@ a.close.disabled {
 }
 
 .bg-primary {
+  /*background-color: #353b48 !important;*/
   background-color: #bd5d38 !important;
 }
 

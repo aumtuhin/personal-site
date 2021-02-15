@@ -39,4 +39,9 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    $.getJSON("https://api.countapi.xyz/hit/aumtuhin.me/visits", function(response) {
+        $("#visits").text(response.value);
+        console.log(response.value);
+    });
 })(jQuery); // End of use strict
