@@ -6079,8 +6079,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  /*background-color: #353b48 !important;*/
-  background-color: #bd5d38 !important;
+  background-color: #353b48 !important;
+  /*background-color: #bd5d38 !important;*/
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
