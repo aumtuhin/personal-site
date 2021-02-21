@@ -6306,6 +6306,7 @@ button.bg-dark:focus {
 }
 
 .d-block {
+  font-family: monospace;
   display: block !important;
 }
 
